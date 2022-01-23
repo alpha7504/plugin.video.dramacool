@@ -35,7 +35,7 @@ except ImportError:
             return self.close()
 
 _addon = Addon()
-_domains = ('watchasian.so', 'dramacool.sk')
+_domains = ('watchasian.cc', 'dramacool.bz', 'asianload.cc', 'asianload.io', 'asianload.net')
 _session = requests.Session()
 _tempfile = os.path.join(translatePath(_addon.getAddonInfo('path')), 'resources/data/tempfile')
 
